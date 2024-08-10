@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminMainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlTop"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/primary1"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+        <ImageView
+            android:id="@+id/imgLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_logout_24"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:clickable="true"
+            />
+
+    </RelativeLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/rlTop"
+        android:layout_height="wrap_content"
+        android:background="@color/primary1"
+        android:id="@+id/tabLayout"/>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#c1c1c1"
+        android:layout_below="@id/tabLayout"/>
+
+    <!--  <com.google.android.material.tabs.TabItem
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         />
+      <com.google.android.material.tabs.TabItem
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         />
+      <com.google.android.material.tabs.TabItem
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         />-->
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ViewPager"
+        android:layout_below="@id/tabLayout"/>
+</RelativeLayout>

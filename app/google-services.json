@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "694037447214",
+    "project_id": "crime1-bbc6a",
+    "storage_bucket": "crime1-bbc6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694037447214:android:8b833c6e9585c8543095bf",
+        "android_client_info": {
+          "package_name": "com.example.crimeandmissingreport"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_bkxwTSp_pOkEp1XCFj15t5DuEgN5t7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/lnContainer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:layout_below="@id/imgProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/splash_bag"
+            android:elevation="5dp"
+            android:textSize="14dp"
+            android:paddingLeft="1dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+
+            <LinearLayout
+                android:id="@+id/lnImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ln1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtCrime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Crime"
+                        android:paddingLeft="10dp"/>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtStatus1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Status"
+                        android:paddingLeft="10dp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ln4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+
+                    android:padding="5dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnViewMore"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="View More"
+                        android:textColor="@color/black"
+                        android:backgroundTint="#c1c1c1"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        app:cornerRadius="8dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

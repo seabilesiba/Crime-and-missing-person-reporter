@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/lnContainer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:layout_below="@id/imgProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+
+            android:elevation="5dp"
+            android:textSize="14dp"
+            android:paddingLeft="1dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+
+            <LinearLayout
+                android:id="@+id/lnImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtUpload"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:animateLayoutChanges="true">
+                    <ImageView
+                        android:id="@+id/imgMissing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_below="@id/txtUpload"
+                        android:background="@color/primary1"
+                        android:layout_gravity="center"/>
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtName1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Name"
+                        android:paddingLeft="10dp"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ln2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+                    android:orientation="horizontal">
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/txtAge1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Age"
+                        android:paddingLeft="10dp"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ln3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+                    android:orientation="horizontal">
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/txtGender1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Gender"
+                        android:paddingLeft="10dp"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ln4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+                    android:orientation="horizontal">
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/txtLastSeen1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Last Seen"
+                        android:paddingLeft="10dp"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ln6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+                    android:orientation="horizontal">
+
+
+
+
+
+                    <TextView
+                        android:id="@+id/txtDetails1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Details"
+                        android:paddingLeft="10dp"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ln5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@id/lnImage"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtStatus1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Status"
+                        android:paddingLeft="10dp"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
